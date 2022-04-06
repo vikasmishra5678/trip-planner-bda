@@ -1,0 +1,27 @@
+.navLinks{
+    font-size: 24px;
+}
+
+.logo {
+    width: 10.25rem;
+    animation: logo-spin infinite 20s linear;
+}
+
+/* .navbar {
+    height: 5.25rem;
+} */
+
+.navbar-brand {
+    max-width: 10.25rem;
+    padding: 0 i !important;
+    /* height: 6rem !important; */
+  }
+
+  @keyframes logo-spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform: rotate(360deg);
+      }
+  }

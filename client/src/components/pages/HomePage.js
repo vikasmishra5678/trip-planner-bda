@@ -118,7 +118,7 @@ class HomePage extends React.Component {
                 <Link to="/home">
                   <button
                     className="btn btn-warning"
-                    onClick={(e) => window.open(PDF)}
+                    onClick={(e) => window.location.href="https://travel-packing-list.com/"}
                   >
                     Packing List
                   </button>

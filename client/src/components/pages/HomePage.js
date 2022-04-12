@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { TimelineMax, Power1 } from "gsap/all";
 import "./home.css";
-import PDF from "../../images/packinglist.pdf";
 import travel from "../../images/traveling.jpeg";
 import itenerary from "../../images/itenerary.jpg";
 import packingList from "../../images/packingList.jpg";
@@ -116,9 +115,19 @@ class HomePage extends React.Component {
                 text="Ever finding yourself under-packing and forgetting the most important items for your trip? Let us help you out."
               >
                 <Link to="/home">
+                  <p>Credits: </p>
                   <button
                     className="btn btn-warning"
-                    onClick={(e) => window.location.href="https://travel-packing-list.com/"}
+                    onClick={(e) => window.open('https://flanzana.github.io/', "_blank")}
+                  >
+                   Žana Flander
+                  </button>
+                </Link>
+                &nbsp;
+                <Link to="/home">
+                  <button
+                    className="btn btn-warning"
+                    onClick={(e) => window.open('https://travel-packing-list.com/', "_blank")}
                   >
                     Packing List
                   </button>

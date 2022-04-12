@@ -70,7 +70,8 @@ class Login extends React.Component {
         <div className="d-flex justify-content-center h-10">
           <div className="user_card" ref={(login) => (this.login = login)}>
             <div className="d-flex justify-content-center">
-              <div className="brand_logo_container" ></div>
+              <div className="brand_logo_container" > If you haven't been everywhere add them to your list because there is no best time to plan a trip than now. So Welcome to our TRIP PLANNER!!
+              </div>
             </div>
             <div className="d-flex justify-content-center form_container">
               <form onSubmit={(e) =>

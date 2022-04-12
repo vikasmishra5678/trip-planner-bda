@@ -18,15 +18,23 @@
 }
 .brand_logo_container {
     position: absolute;
-    height: 170px;
-    width: 170px;
+    height: 120px;
     z-index: 1;
-    top: -75px;
-    border-radius: 50%;
-    background: #EDD769;
-    background-image: url(../../images/donde2-01.png);
+    top: 0px;
+    border-radius: 0%;
+    /*background: #EDD769;
+    background-image: url(../../images/donde2-01.png);*/
     padding: 10px;
     text-align: center;
+    @import url('https://fonts.googleapis.com/css?family=Amethysta');
+    font-family: Amethysta, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(15, 9, 37);
+    background-color: rgba(238, 205, 156, 0.778);
+    background-position:center;
+    text-shadow: rgba(0, 0, 0, 0.18) 2px 2px 2px;
 }
 
 .brand_logo {

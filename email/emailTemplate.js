@@ -34,7 +34,7 @@ const emails = {
     body a {
       color: #69AB8E;
       text-decoration: none;
-    }
+   }
     p { margin: 0; padding: 0; }
     table.wrapper {
       width:100% !important;

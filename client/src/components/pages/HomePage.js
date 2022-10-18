@@ -73,7 +73,7 @@ class HomePage extends React.Component {
                 }}
                 className="card shadow mt-5 cardBgColor"
               >
-                <h1> Travel Planner </h1>
+                <h1> Travel Planner (Nakshatra-45, Vikas-54, Vikaskumar-62) </h1>
                 <hr className="my-4" />
                 <p>
                   Welcome! Let us help you take the hard work of planning Trips out of your hands!

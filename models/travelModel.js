@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const travelSchema = new mongoose.Schema({
     tripName: { type: String, required: true },
     budget: { type: Number, required: true },

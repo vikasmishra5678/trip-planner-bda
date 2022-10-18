@@ -7,7 +7,6 @@ const Locate = "https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCo
 const language = "&language=en"
 const getCity = "https://maps.googleapis.com/maps/api/geocode/json?latlng=";
 
-
 function formatQuery(query) {
     if (typeof query === "object") {
         query === query.formatted_address
